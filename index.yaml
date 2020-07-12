@@ -3,7 +3,30 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-07-12T17:43:47.836529-04:00"
+    created: "2020-07-12T18:26:47.799-04:00"
+    deprecated: true
+    description: Custom Wordpress chart with no persistence
+    digest: c4c7efd4ab99de155311ddf8d133d195b1ed95a8ed2c6043471d55c9145ccd10
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.3.0.tgz
+    version: 9.3.0
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2020-07-12T18:26:47.792862-04:00"
     deprecated: true
     description: Custom Wordpress chart
     digest: 55d407165ac6ae7091a757260bffc35d212e18865de6483de085dcd604cd0401
@@ -24,4 +47,4 @@ entries:
     urls:
     - wordpress-9.0.3.tgz
     version: 9.0.3
-generated: "2020-07-12T17:43:47.820505-04:00"
+generated: "2020-07-12T18:26:47.778197-04:00"
